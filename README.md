@@ -1,5 +1,5 @@
 # INT201-S2G1-GROUPWORK-08
-# [GitHub Pages](#)
+# [GitHub Pages](https://buratsakorn-bew.github.io/INT201-S2G1-GROUPWORK-08/Product-Web-HW08/)
 
 ## Member
 
