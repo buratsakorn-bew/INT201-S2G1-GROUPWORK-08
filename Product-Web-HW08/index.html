@@ -14,7 +14,7 @@
     </script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="product-list.js" type="module"></script>
-    <script src="./search.js" type="module" ></script>
+    <script src="./search.js" type="module"></script>
     <script src="./darkmode.js" type="module"></script>
     <script src="./cart.js" type="module"></script>
 
@@ -24,55 +24,56 @@
 </head>
 
 <body>
+    <div id="nav">
+        <nav class="navbar navbar-expand navbar navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <i class='bx bxl-apple bx-md' class="d-inline-block align-text-top" id="Apple"></i>
+                </a>
 
-    <nav class="navbar navbar-expand navbar navbar-dark bg-dark ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <i class='bx bxl-apple bx-md' class="d-inline-block align-text-top" id="Apple"></i>
-            </a>
-            
-            <div class="collapse navbar-collapse m-1 justify-content-end " id="navbarDropdown">
-                <div class="d-flex justify-content-center align-items-center" id="searchpanel">
-                    <span style="display: inline-block ;width: 100% ;">
+                <div class="collapse navbar-collapse m-1 justify-content-end " id="navbarDropdown">
+                    <div class="d-flex justify-content-center align-items-center" id="searchpanel">
+                        <span style="display: inline-block ;width: 100% ;">
                         <input type = 'text' placeholder="Search..." id="searchValue" class="form-control mr-sm-2" style="display: none;" >
                     </span>
-                        <button id='active' class="btn btn-outline-light my-2 my-sm-0" style="display: none;" >search</button>
-                
-                </div>
+                        <button id='active' class="btn btn-outline-light my-2 my-sm-0" style="display: none;">search</button>
 
-                <ul class="navbar-nav d-flex align-items-center">
-                    <li class="nav-item ">
-                        <i class='bx bx-search bx-md me-4' id='search'></i>
-                    </li>
-                    <li class="nav-item d-flex">
-                        <i class='bx bx-shopping-bag bx-md' id='cart'></i>
-                        <span id='numqty' class='mx-auto border rounded-circle align-items-center d-flex justify-content-center bg-warning border border-2 border-dark' style='width: 28px; height: 28px;'>0</span>
-                    </li>
-                    <li class="nav-item">
-                    </li>
-                    <li class="nav-item">
-                        <p id="totolprice">
-                            <span style="color: black;">Price : 0 </span>
-                        </p>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-light" id='clear'>Clear</button>
-                    </li>
+                    </div>
 
-                </ul>
-                <!-- toggle-mode -->
-                <div class="theme-switch-container">
-                    <span id="toggle-icon">
+                    <ul class="navbar-nav d-flex align-items-center">
+                        <li class="nav-item ">
+                            <i class='bx bx-search bx-md me-4' id='search'></i>
+                        </li>
+                        <li class="nav-item d-flex">
+                            <i class='bx bx-shopping-bag bx-md' id='cart'></i>
+                            <span id='numqty' class='mx-auto border rounded-circle align-items-center d-flex justify-content-center bg-warning border border-2 border-dark' style='width: 28px; height: 28px;'>0</span>
+                        </li>
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            <p id="totolprice">
+                                <span style="color: black;">Price : 0 </span>
+                            </p>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-light" id='clear'>Clear</button>
+                        </li>
+
+                    </ul>
+                    <!-- toggle-mode -->
+                    <div class="theme-switch-container">
+                        <span id="toggle-icon">
                             <span class="toggle-text">LightMode</span>
-                    <i class='bx bxs-sun'></i>
-                    </span>
-                    <label class="theme-switch">
+                        <i class='bx bxs-sun'></i>
+                        </span>
+                        <label class="theme-switch">
                             <input type="checkbox">
                             <div class="slider round"></div>
                         </label>
+                    </div>
                 </div>
             </div>
-        </div>
+    </div>
     </nav>
 
     <div class="card bg-dark text-dark rounded-0 border-0 " style="background: rgb(242,242,242);">
@@ -99,4 +100,5 @@
             <div id="feed" class="container row justify-content-center mx-auto"></div>
 
 </body>
+
 </html>
