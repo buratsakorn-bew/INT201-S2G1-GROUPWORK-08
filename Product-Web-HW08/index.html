@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Accessories</title>
-    
+
     <script>
         function addAlert() {
             alert("You Added Now!");
@@ -58,7 +58,19 @@
                     <li class="nav-item">
                         <button type="button" class="btn btn-light" id='clear'>Clear</button>
                     </li>
+
                 </ul>
+                <!-- toggle-mode -->
+                <div class="theme-switch-container">
+                    <span id="toggle-icon">
+                            <span class="toggle-text">LightMode</span>
+                    <i class='bx bxs-sun'></i>
+                    </span>
+                    <label class="theme-switch">
+                            <input type="checkbox">
+                            <div class="slider round"></div>
+                        </label>
+                </div>
             </div>
         </div>
     </nav>
@@ -82,7 +94,6 @@
             <div class="container">
                 <div class="text-end">
                     <span> Hello : <span id="username">Guest</span> </span>
-                    <button id="toggleModeBtn" class='bx bx-moon btn btn-sm btn-outline-secondary'></button>              
                 </div>
             </div>
             <div id="feed" class="container row justify-content-center mx-auto"></div>
