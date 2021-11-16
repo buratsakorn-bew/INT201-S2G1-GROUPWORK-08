@@ -15,4 +15,4 @@
 
 6.63130500105 วารีวัล พงศ์พันธ์ชัยกุล
 
-link doc:
+link doc: [Google Doc](https://docs.google.com/document/d/1wkmK2JpFQV35B3q5KwfQayuOCWRs5a3lqpOjDOgTRW8/edit?usp=sharing)
