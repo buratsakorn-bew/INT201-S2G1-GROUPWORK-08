@@ -41,50 +41,6 @@ export let products = [{
         stock: "1"
     },
 
-<<<<<<< HEAD
-    {
-        img: "image/mag-safe-charger.png",
-        id: '3001',
-        name: "MagSafe Charger",
-        price: 1490,
-        stock: "5"
-    },
-    {
-        img: "image/Apple30-pin.png",
-        id: '3002',
-        name: "Apple 30-pin to VGA Adapter",
-        price: 1190,
-        stock: "6"
-    },
-    {
-        img: "image/Apple Watch Magnetic.png",
-        id: '3003',
-        name: "Apple Watch Magnetic Charging Dock",
-        price: 2990,
-        stock: "10"
-    },
-    {
-        img: "image/MagicKeyboard- ThaiK.png",
-        id: '4000',
-        name: "Magic Keyboard - Thaik",
-        price: 3190,
-        stock: "9"
-    },
-    {
-        img: "image/MagicMouse.png",
-        id: '4001',
-        name: "Magic Mouse",
-        price: 2490,
-        stock: "5"
-    },
-    {
-        img: "image/Magic Trackpad.png",
-        id: '4002',
-        name: "Magic Trackpad",
-        price: 4190,
-        stock: "3"
-    }
-=======
 {
     img: "image/mag-safe-charger.png",
     id: '3001',
@@ -127,5 +83,4 @@ export let products = [{
     price: 4190,
     stock: "3"
 }
->>>>>>> d4be801683563b64701c28270cb2bf98fa3d19ef
 ]
