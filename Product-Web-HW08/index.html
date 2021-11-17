@@ -17,6 +17,7 @@
     <script src="./search.js" type="module"></script>
     <script src="./darkmode.js" type="module"></script>
     <script src="./cart.js" type="module"></script>
+    <script src="./username.js" type="module"></script>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -95,7 +96,12 @@
             <h1>Featured Apple Accessories</h1>
             <div class="container">
                 <div class="text-end">
-                    <span> Hello : <span id="username">Guest</span> </span>
+                    <p id="Hello">
+                        <span> Hello : <span id="username">Guest</span>
+                    </p>
+                    <button type="button" class="btn btn-danger" id='change'></button>
+                    </span>
+                    <!-- <button id="change"></button> -->
                 </div>
             </div>
             <div id="feed" class="container row justify-content-center mx-auto"></div>
